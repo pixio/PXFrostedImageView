@@ -1,0 +1,1 @@
+PODS_PXFROSTEDIMAGEVIEW_UIIMAGEUTILITIES_OTHER_LDFLAGS = -framework "Accelerate" -framework "UIKit"

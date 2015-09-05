@@ -1,0 +1,49 @@
+PODS:
+  - AFNetworking (2.5.3):
+    - AFNetworking/NSURLConnection (= 2.5.3)
+    - AFNetworking/NSURLSession (= 2.5.3)
+    - AFNetworking/Reachability (= 2.5.3)
+    - AFNetworking/Security (= 2.5.3)
+    - AFNetworking/Serialization (= 2.5.3)
+    - AFNetworking/UIKit (= 2.5.3)
+  - AFNetworking/NSURLConnection (2.5.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.5.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.5.3)
+  - AFNetworking/Security (2.5.3)
+  - AFNetworking/Serialization (2.5.3)
+  - AFNetworking/UIKit (2.5.3):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - PXFrostedImageView (0.1.0):
+    - PXImageView
+    - UIColor-MoreColors
+    - UIImageUtilities
+  - PXImageView (0.1.0):
+    - UIImageView_AFNetworking-Blocks
+  - UIColor-MoreColors (1.0.3)
+  - UIImageUtilities (0.1.1)
+  - UIImageView_AFNetworking-Blocks (0.1.0):
+    - AFNetworking (~> 2.0)
+
+DEPENDENCIES:
+  - PXFrostedImageView (from `../`)
+
+EXTERNAL SOURCES:
+  PXFrostedImageView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AFNetworking: e1d86c2a96bb5d2e7408da36149806706ee122fe
+  PXFrostedImageView: 4ee3efda8854383be1a7420d9d08863cf820c4cc
+  PXImageView: 0467ed80ad7e188dd344e83f5eee603934b22f9d
+  UIColor-MoreColors: f05e23f1f9067550ffd5a369479b8cf294d34097
+  UIImageUtilities: 0e1b2ea5b320465fedc8506459a9c78834bf0535
+  UIImageView_AFNetworking-Blocks: f19c2d3e87e7dd014a5d83592c09e5e22c5f94eb
+
+COCOAPODS: 0.36.4
