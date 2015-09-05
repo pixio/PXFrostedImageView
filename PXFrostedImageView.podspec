@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "PXFrostedImageView"
-  s.version          = "0.1.2"
+  s.version          = "0.1.3"
   s.summary          = "Image view with blurry frosted background."
   s.description      = <<-DESC
                        A simple, tintable image view that displays a frosted version of its content.
